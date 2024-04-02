@@ -3,7 +3,7 @@ import React from "react";
 function Dish({ imgURL, title, price, desc }) {
   return (
     <div className="dish" style={{ width: "40%", marginBottom: "50px" }}>
-      <img src={imgURL} className="dishImage" />
+      <img src={imgURL} alt={title} className="dishImage" />
       <div className="dishData">
         <div className="headingPriceWrapper">
           <h2>{title}</h2>
